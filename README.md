@@ -1,13 +1,4 @@
-Exception reporter for Open-Admin
-=================================
-
-This tool stores the exception information into the database and provides a developer-friendly web interface to view the exception information.
-
-[![StyleCI](https://styleci.io/repos/508366116/shield?branch=main)](https://styleci.io/repos/508366116)
-[![Packagist](https://img.shields.io/github/license/open-admin-org/reporter.svg?maxAge=2592000&style=flat-square&color=brightgreen)](https://packagist.org/packages/open-admin-ext/reporter)
-[![Total Downloads](https://img.shields.io/packagist/dt/open-admin-ext/reporter.svg?style=flat-square&color=brightgreen)](https://packagist.org/packages/open-admin-ext/reporter)
-[![Pull request welcome](https://img.shields.io/badge/pr-welcome-green.svg?style=flat-square&color=brightgreen)]()
-
+ 
 ## Screenshot
 
 ![open-admin-reporter](https://user-images.githubusercontent.com/86517067/176226958-b3ed0a1c-7b87-4e43-a2fd-f487f110d9f5.png)
@@ -16,11 +7,11 @@ This tool stores the exception information into the database and provides a deve
 ## Installation
 
 ```
-$ composer require open-admin-ext/reporter
+$ composer require snowsoft/oareporter
 
 $ php artisan vendor:publish --tag=open-admin-reporter
 
-$ php artisan migrate --path=vendor/open-admin-ext/reporter/database/migrations
+$ php artisan migrate --path=vendor/snowsoft/oareporter/database/migrations
 
 $ php artisan admin:import reporter
 ```
