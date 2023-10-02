@@ -1,9 +1,9 @@
 {
-    "name": "open-admin-ext/reporter",
+    "name": "snowsoft/oareporter",
     "description": "Exception reporter for laravel",
     "type": "library",
     "keywords": ["open-admin", "exception", "reporter"],
-    "homepage": "https://github.com/open-admin-org/reporter",
+    "homepage": "https://github.com/snowsoft/oareporter",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,7 @@
     "require": {
         "php": ">=7.0.0",
         "laravel/framework": ">=7.0",
-        "open-admin-org/open-admin": ">=1.0.20",
+        "snowsoft/open-admin": ">=v0.01",
         "ext-json": "*"
     },
     "require-dev": {
